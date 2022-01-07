@@ -80,7 +80,7 @@
     .contact-btn {
 
         background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
-        padding: 15px 18px;
+        padding: 12px 12px;
         text-transform: uppercase;
         transition: 0.5s;
         background-size: 200% auto;
@@ -88,7 +88,7 @@
         box-shadow: 0 0 20px #eee;
         border-radius: 10px;
         border: none;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .contact-btn:hover {
