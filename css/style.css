@@ -1,0 +1,513 @@
+body{
+    color: black;
+    overflow-x: hidden;
+
+}
+
+
+
+/* *******************navbar custom css here */
+.navbar-light .navbar-brand {
+
+    margin-left: 50px;
+    margin-right: 4rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-brand:hover {
+
+    color: black;
+}
+
+
+.nav-item {
+
+    margin-left: 30px;
+}
+
+.bg-custom {
+
+    background: white;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:black;
+    font-size: 19px;
+
+}
+
+
+
+.social {
+
+    margin-left: 224px;
+}
+
+.margin-custom {
+
+    margin-right: -22px;
+}
+
+.fa-palette{
+
+    color:#ff00bf;
+}
+
+
+
+/* theme dropdown color css */
+
+.green-icon {
+
+    color: green;
+}
+
+.cyan-icon {
+
+    color: cyan;
+}
+
+.greenyellow-icon {
+
+    color: greenyellow;
+}
+
+.yellow-icon{
+
+    color:#ffdd00 ;
+}
+
+/********************************desktop hero section */
+
+#hero-desktop {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5DF4E;
+}
+
+.d-hero-heading {
+
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.d-hero-title {
+
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.d-hero-paragraph {
+
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.hero-profile {
+
+    border: solid 15px white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px gray;
+
+}
+
+.btn-hero {
+
+    padding: 11px 27px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+
+
+/**************************mobile hero css here**********/
+.hero-mobile {
+
+    display: none;
+}
+
+.mobile-profile {
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px white;
+    margin-top: 40px;
+}
+
+.profile-name{
+
+    color: white;
+    font-size: 23px;
+}
+
+
+.profile-title{
+
+    color: white;
+    font-size: 15px;
+}
+
+.social-mobile{
+
+    font-size: 22px;
+
+}
+
+.mobile-details {
+
+    margin: 50px 0px;
+    padding: 20px 0px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 20px;
+    color: black;
+}
+
+.mobile-h-title {
+
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.mobile-h-details {
+
+    font-size: 20px;
+}
+
+.detail-icon {
+
+    font-size: 50px;
+    color: rgb(255, 0, 170);
+}
+
+.fa-envelope {
+
+    font-size: 40px;
+}
+
+.mobile-h-email {
+
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.mr-icon {
+
+    margin-left: 30px;
+}
+
+.mr-detail-row {
+
+    margin-bottom: 15px;
+}
+
+/* icon colors */
+
+.fa-mobile-alt {
+
+    color: #e63191;
+}
+
+.fa-envelope {
+
+    color: #f1046f;
+}
+
+.fa-map-marker-alt {
+
+    color: red;
+}
+
+.fa-calendar-alt {
+
+    color: purple;
+}
+
+
+.btn-mobile-hero {
+    
+    font-size: 14px;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+    color: white;
+    padding: 8px 25px;
+    margin: 0px 0px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.644);
+    
+}
+
+.btn-mobile-hero:hover {
+    color: white;
+    background-position: right center;
+}
+
+
+/* btoom navbar css start */
+
+.mobile-navbar{
+
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding: 5px 0px 0px;
+    position:fixed;
+    bottom:0px;
+}
+
+.bt-nav-item{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.bt-nav-item li a{
+
+    text-decoration: none;
+}
+
+.icon{
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+}
+
+.bt-nav-p{
+
+    font-size: 14px;
+    text-transform: uppercase;
+    color:black;
+    font-weight: 600;
+}
+
+.btn-mobile-nav{
+
+    background-color: rgb(48, 46, 46);
+    border-radius: 50%;
+    color: white;
+}
+.btn-mobile-nav:hover{
+
+    background-color: rgb(0, 119, 255);
+    color: white
+}
+.mobile-nav-thbox{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 5px 0px 0px 15px;
+    
+}
+
+
+#thbox-icon{
+    font-size: 20px;
+}
+
+/**************************mobile hero css finish here**********/
+
+
+/* about section css here */
+
+.about{
+    margin-top: 130px;
+}
+
+#about-heading{
+
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+#about-hr{
+
+    color: #d7bb00;
+    height: 5px;
+    opacity: 1;
+    position: relative;
+    top:20px ;
+    right: 38px;
+}
+
+.about-paragraph{
+
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.color-gray{
+    color: #4a4646;
+}
+
+
+
+/* what i do services section */
+
+.my-sevices{
+
+    padding-top: 130px;
+
+}
+
+.ms-card-mt{
+
+    padding-top: 60px;
+}
+
+.services-card{
+      
+      background-color: white;
+      color: black;
+      box-shadow: 0px 0px 20px gray;
+}
+
+.ser_deful_icon{
+    
+    color: rgb(0, 0, 0);
+}
+
+.my-skills{
+
+    margin-top: 100px;
+}
+
+
+/*====================portfolio css here=================*/
+
+.portfolio{
+
+    margin-top: 180px;
+}
+
+.card-img-size{
+
+    height: 350px;
+    cursor: pointer;
+    
+}
+
+.card-img-size:hover{
+
+    opacity: 0.7;
+    transition: 00.5s;
+}
+
+.profile-icon{
+
+    font-size: 25px;
+    color: black;
+}
+.profile-icon:hover{
+    color: rgb(0, 162, 255);
+}
+
+.card-text{
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+.card-text:hover{
+    color: rgb(7, 90, 245);
+    cursor: pointer;
+}
+
+
+/*====================contact me section css start here========================*/
+
+.contact{
+
+    margin-top: 180px;
+}
+
+
+
+.info-text{
+
+    font-size: 18px;
+}
+
+/* social icon css  */
+.contact-icon{
+
+    font-size: 26px;
+}
+.contact-icon:hover{
+
+    font-size: 30px;
+  
+}
+
+.fa-facebook{
+
+    color: #237bff;
+}
+
+.fa-twitter{
+
+    color: #129BDE;
+    
+}
+
+.fa-github{
+
+    color: black;
+}
+
+.fa-linkedin{
+
+    color: rgb(0, 102, 255);
+}
+.fa-whatsapp-square{
+
+    color: rgb(5, 189, 5);
+    font-size: 30px;
+}
+.fa-whatsapp-square:hover{
+
+    font-size: 31px;
+}
+
+/*==========footer css here==========*/
+
+#footer{
+
+    margin-top: 120px;
+}
+
+
+/* back to top button */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    display: none;
+    border-radius: 50%;
+  }

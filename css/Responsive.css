@@ -1,0 +1,155 @@
+@media only screen and (max-width: 500px) {
+    #hero-desktop {
+        display: none;
+    }
+
+    body {
+        color: white;
+    }
+
+    .hero-mobile {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .about-hr {
+        display: none;
+    }
+
+    #aboutinfo-hide-mobile {
+        display: none;
+    }
+
+    #about-heading {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-paragraph{
+
+        font-size: 18px;
+        text-align: justify;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    #service-section-Title{
+
+        font-size: 20px;
+    }
+
+    .portfolio-section-title{
+
+        font-size: 25px;
+    }
+
+    .contact-mobile-margin {
+
+        margin-top: 80px;
+    }
+
+    .portfolio {
+
+        z-index: 0;
+    }
+
+    .mobile-navbar {
+
+        z-index: 1;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .contact-btn-row {
+
+        display: flex;
+
+        justify-content: center;
+
+        margin-top: 30px;
+
+
+    }
+
+    .contact-btn {
+
+        background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+        padding: 15px 18px;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border: none;
+        font-size: 15px;
+    }
+
+    .contact-btn:hover {
+        color: white;
+        background-position: right center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*=================mobile theme body color css here======================*/
+
+    .body {
+        background: #8E2DE2;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4A00E0, #8E2DE2);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+
+    .body2 {
+        background: #D31027;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EA384D, #D31027);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EA384D, #D31027);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .body3 {
+
+        background: #AA076B;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #61045F, #AA076B);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    }
+
+    .body4 {
+        background: #0575E6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+}
